@@ -33,7 +33,7 @@
             background-color: green;
         }
         .orange{
-            background: orange;
+            background-color: orange;
         }
         .purple{
             background-color: purple;
@@ -48,5 +48,14 @@
         <div class="color orange"></div>
         <div class="color purple"></div>
     </div>
+    <script>
+        const colors = document.querySelectorAll(".color");
+
+        colors.forEach(color=>{
+            color.addEventListener("click",function(){
+                document.body.style.backgroundColor = this.classList[1];
+            })
+        })
+    </script>
 </body>
 </html>
