@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.quiz-container{
+    background:white;
+    width:400px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+}
+
+.quiz-header{
+    padding:30px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+ul li{
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#4CAF50;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#45a049;
+}
